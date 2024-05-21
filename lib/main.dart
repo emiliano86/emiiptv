@@ -8,8 +8,8 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 Future<void> main() async {
   await Supabase.initialize(
 
-    url: 'https://zmgcpqpgygzjcbwcggqz.supabase.co',
-    anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InptZ2NwcXBneWd6amNid2NnZ3F6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NjkwMzA5NTYsImV4cCI6MTk4NDYwNjk1Nn0.V27N508Mz1g7ZcnmFXCmbpyTdho-OXASlcXfNJqX-s0',
+    url: 'xxxxx',
+    anonKey: 'xxxxxxxxxxxxxxxxxxxxxxxxxx',
   );
   WidgetsFlutterBinding.ensureInitialized();
   Pref.sharedPreferences=await SharedPreferences.getInstance();
